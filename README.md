@@ -1,4 +1,4 @@
-# NordicTech Solutions - Company Structure
+# NordicTech Solutions
 
 ## Overview
 
