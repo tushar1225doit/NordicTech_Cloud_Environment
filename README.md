@@ -1,74 +1,102 @@
-# IaC Azure Demo
+# NordicTech Solutions - Company Structure
 
-A beginner-friendly Infrastructure as Code (IaC) project focused on learning Azure cloud deployment and automation concepts.
+## Overview
 
-This repository is part of my hands-on learning journey in:
-- Microsoft Azure
-- Cloud Infrastructure
-- Infrastructure as Code (IaC)
-- Automation & Cloud Operations
+NordicTech Solutions is a fictional small technology company used to simulate a real-world cloud administration and IT support environment using Azure and Microsoft 365.
+
+The company contains multiple departments with different access requirements and security policies.
 
 ---
 
-# Project Goal
+# Departments and Employee Count
 
-The goal of this project is to understand how cloud infrastructure can be provisioned and managed programmatically instead of manual configuration through the Azure Portal.
+| Department | Number of Employees |
+|------------|--------------------|
+| HR | 2 |
+| Finance | 2 |
+| IT | 3 |
+| Developers | 6 |
+| Management | 2 |
 
-This helps improve:
-- scalability
-- consistency
-- automation
-- cloud deployment workflows
-
----
-
-# Technologies Used
-
-- Microsoft Azure
-- Infrastructure as Code (IaC)
-- Cloud Automation Concepts
-- Azure Resource Management
+Total Employees: 15
 
 ---
 
-# Learning Objectives
+# Naming Convention
 
-Through this project, I am exploring:
+## User Account Format
 
-- Azure infrastructure deployment
-- Cloud provisioning workflows
-- Infrastructure automation
-- Resource management concepts
-- DevOps and cloud engineering fundamentals
+All employee accounts follow the naming convention:
 
----
+firstname.deptname@nordictech.local
 
-# Skills Demonstrated
+### Examples
 
-- Azure Cloud Basics
-- Infrastructure as Code Concepts
-- Cloud Administration
-- Automation Mindset
-- Cloud Resource Management
+- anna.hr@nordictech.local
+- erik.finance@nordictech.local
+- lars.it@nordictech.local
+- sofia.dev@nordictech.local
 
 ---
 
-# Why This Project
+# Security Rules
 
-As part of my transition from IT Support into Cloud and IAM roles, I wanted to gain practical exposure to modern cloud infrastructure practices and automation-oriented workflows.
+The following security policies are implemented for all employees:
 
-This repository represents hands-on experimentation and continuous learning in Azure cloud technologies.
+## General Policies
+
+- Multi-Factor Authentication (MFA) enabled for all users
+- Strong password policy enforced
+- Least privilege access model applied
+- Department-based access control implemented
+- Administrative access restricted to IT department
+- Shared company resources monitored regularly
+
+## Password Policy
+
+- Minimum 12 characters
+- Combination of uppercase, lowercase, numbers, and symbols
+- Password expiration every 90 days
+- Password reuse restricted
 
 ---
 
-# Future Improvements
+# Groups
 
-Planned future additions:
-- Virtual machine deployment
-- Networking configuration
-- Storage provisioning
-- RBAC and IAM integration
-- Automated deployment workflows
-- Monitoring and logging setup
+The following groups are created to manage permissions and access control.
+
+| Group Name | Purpose |
+|------------|---------|
+| HR-Team | Access to HR resources |
+| Finance-Team | Access to financial resources |
+| IT-Admins | Administrative privileges |
+| Developers | Access to development resources |
+| Managers | Access to management documents |
+| All-Employees | Company-wide shared resources |
 
 ---
+
+# Access Control Rules
+
+| Resource | Access Permission |
+|----------|------------------|
+| HR Files | HR-Team only |
+| Finance Files | Finance-Team only |
+| Admin Portal | IT-Admins only |
+| Development Resources | Developers only |
+| Management Reports | Managers only |
+| Shared Documents | All Employees |
+
+---
+
+# Project Goals
+
+This project is designed to demonstrate practical skills in:
+
+- Azure Administration
+- Microsoft 365 Administration
+- Identity and Access Management (IAM)
+- Role-Based Access Control (RBAC)
+- Multi-Factor Authentication (MFA)
+- IT Documentation
+- Cloud Security Fundamentals
